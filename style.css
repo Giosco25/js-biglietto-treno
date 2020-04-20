@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#price{
+    background-color: #777;
+}
+#title{
+    color:white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px
+}
+#prezzo{
+    color:white;
+    font-weight: bold;
+    font-size: 29px;
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 10px;
+}
