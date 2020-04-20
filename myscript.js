@@ -15,15 +15,13 @@ var sconto_over65 = calcolo * 40 / 100;
 console.log(sconto_over65);
 if (anni_utente < 18) {
     console.log(sconto_minorenni);
-    document.getElementById('prezzo').innerHTML = 'Il prezzo del biglietto è di' + sconto_minorenni;
+    document.getElementById('prezzo').innerHTML = 'Il prezzo del biglietto è di ' + sconto_minorenni;
 }else if (anni_utente > 65) {
     console.log(sconto_over65);
-    document.getElementById('prezzo').innerHTML = 'Il prezzo del biglietto è di' + sconto_over65;
+    document.getElementById('prezzo').innerHTML = 'Il prezzo del biglietto è di ' + sconto_over65;
 }
 else {
     console.log(calcolo);
-    document.getElementById('prezzo').innerHTML = 'Il prezzo del biglietto è di' + calcolo;
+    document.getElementById('prezzo').innerHTML = 'Il prezzo del biglietto è di ' + calcolo;
 }
 document.getElementById('title').innerHTML = 'Benvenuto/a';
-
-//&nbsp
